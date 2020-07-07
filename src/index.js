@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Game />
+    <Game playerSize={25} boardUnit={11} />
   </React.StrictMode>,
   document.getElementById('root')
 );
